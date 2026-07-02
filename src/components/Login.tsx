@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <div className="w-full h-dvh flex justify-center items-center bg-linear-to-br  from-[#a6c0fe] to-[#ffeaf6] m-auto  ">
@@ -152,7 +153,9 @@ const Login = () => {
                 <div className="text-sm text-center mt-5">
                   <p>
                     এখনও অ্যাকাউন্ট তৈরি করেননি?
-                    <span className="text-blue-500 hover:text-indigo-500 hover:cursor-pointer ">রেজিস্টার</span>
+                    <Link to="/register" className="text-blue-500 ml-1 hover:text-indigo-500">
+      রেজিস্টার
+    </Link>
                   </p>
                 </div>
               </div>

@@ -1,6 +1,8 @@
 import React from "react";
+import {Link , useNavigate} from "react-router-dom"
 
 const RegistrationFour = () => {
+  const navigate = useNavigate ();
   return (
     <section className=" w-145.5 h-dvh mx-auto bg-white flex flex-col  border border-[#D9D9D9] rounded-4xl  ">
       <div className=" mx-auto mt-[88px] mb-[40px]">
@@ -23,7 +25,7 @@ const RegistrationFour = () => {
               ))}
           </div>
           <div className="relative ">
-            <button
+            <button onClick ={() => navigate ("/")}
               className=" w-full h-12.5  text-center text-4 font-medium text-white bg-[#0c28b7] border border-slate-400
                    hover:bg-indigo-700 rounded-lg cursor-pointer"
             >
@@ -69,7 +71,7 @@ const RegistrationFour = () => {
           <div className="text-sm text-center mt-5">
             <p>
               ইতিমধ্যে একাউন্ট আছে?
-              <span className="text-blue-500 ml-1 hover:text-indigo-500 hover:cursor-pointer ">লগইন</span>
+              <Link to ="/" className="text-blue-500 ml-1 hover:text-indigo-500 hover:cursor-pointer ">লগইন</Link>
             </p>
           </div>
         </div>
