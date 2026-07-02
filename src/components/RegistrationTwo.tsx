@@ -98,23 +98,23 @@ const RegistrationTwo = () => {
               <img
                 src="/src/assets/Google-icon.png"
                 alt="Google-icon"
-                className=" items-center  "
+                className=" items-center hover:scale-110 hover:cursor-pointer "
               />
               <img
                 src="/src/assets/fb-icon.png"
                 alt="fb-icon"
-                className=" items-center  "
+                className=" items-center hover:scale-110 hover:cursor-pointer "
               />
               <img
                 src="/src/assets/apple-icon.png"
                 alt="apple-icon"
-                className=" items-center  "
+                className=" items-center hover:scale-110 hover:cursor-pointer "
               />
             </div>
             <div className="text-sm text-center mt-5">
               <p>
                 ইতিমধ্যে একাউন্ট আছে?
-                <span className="text-blue-500 ml-1">লগইন</span>
+                <span className="text-blue-500 ml-1 hover:text-indigo-500 hover:cursor-pointer ">লগইন</span>
               </p>
             </div>
           </div>

@@ -136,23 +136,23 @@ const Login = () => {
                   <img
                     src="/src/assets/Google-icon.png"
                     alt="Google-icon"
-                    className=" items-center  "
+                    className=" items-center hover:scale-110 hover:cursor-pointer  "
                   />
                   <img
                     src="/src/assets/fb-icon.png"
                     alt="fb-icon"
-                    className=" items-center  "
+                    className=" items-center  hover:scale-110 hover:cursor-pointer"
                   />
                   <img
                     src="/src/assets/apple-icon.png"
                     alt="apple-icon"
-                    className=" items-center  "
+                    className=" items-center hover:scale-110 hover:cursor-pointer "
                   />
                 </div>
                 <div className="text-sm text-center mt-5">
                   <p>
                     এখনও অ্যাকাউন্ট তৈরি করেননি?
-                    <span className="text-blue-500">রেজিস্টার</span>
+                    <span className="text-blue-500 hover:text-indigo-500 hover:cursor-pointer ">রেজিস্টার</span>
                   </p>
                 </div>
               </div>
